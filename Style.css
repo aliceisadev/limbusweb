@@ -136,7 +136,7 @@ h2{
     filter:grayscale(90%);
 }
 .sin1:hover{
-    content: url('/img/yi.png');
+    content: url('img/yi.png');
     top:18.3%;
 }
 .sinner2{
