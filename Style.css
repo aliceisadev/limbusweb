@@ -1,0 +1,168 @@
+:root {
+    background-color: #0A0D0D;
+    overflow: hidden
+  }
+@font-face {
+    font-family: 'Rodin';
+    src: url('FOT-Rodin Pro EB.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h1{
+    font-family: 'Rodin';
+    font-size: 105px;
+    -webkit-text-stroke: 2px white;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1.0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 65px;
+    margin: 0;
+}
+h1 span{
+    position: relative;
+    display: block;
+}
+h2{
+    font-family: 'Rodin';
+    font-size: 30px;
+    line-height: 1.0;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 70px;
+    margin: 0;
+}
+.lobby1{
+    position: fixed;
+    bottom: -50%;
+    left: 0;
+    width: 105%;
+    height: 100%; /* Keeps aspect ratio */
+    z-index: -1; /* Optional: sends it behind other content */
+}
+.lobby2{
+    position: fixed;
+    top: -50%;
+    left: 0;
+    width: 105%;
+    height: 100%; /* Keeps aspect ratio */
+    z-index: -1; /* Optional: sends it behind other content */
+}
+.underpng{
+    position: relative;
+    left: -8%;
+    top:30%;
+    width: 70%;
+    z-index: -1; 
+}
+.sinnerdis{
+    transform: rotate(-3deg);
+}
+.vinyet{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+.sinner{
+    position: absolute;
+    left: 11%;
+    top:17%;
+    height: 65%;
+    object-fit: contain;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8,.icon9,.icon10,.icon11,.icon12{
+    position: absolute;
+    left: 5.5%;
+    top:17%;
+    height: 10%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.icon2{
+    top:28%;
+}
+.icon3{
+    top:39%;
+}
+.icon4{
+    top:50%;
+}
+.icon5{
+    top:61%;
+}
+.icon6{
+    top:72%;
+}
+.icon7{
+    left:51.5%;
+}
+.icon8{
+    top:28%;
+    left:51.5%;
+}
+.icon9{
+    top:39%;
+    left:51.5%;
+}
+.icon10{
+    top:50%;
+    left:51.5%;
+}
+.icon11{
+    top:61%;
+    left:51.5%;
+}
+.icon12{
+    top:72%;
+    left:51.5%;
+}
+.icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover,.icon5:hover,.icon6:hover,.icon7:hover,.icon8:hover,.icon9:hover,.icon10:hover,.icon11:hover,.icon12:hover{
+    filter:grayscale(0%);
+}
+.sin1{
+    position: absolute;
+    left: 6.1%;
+    top:18.5%;
+    height: 7.3%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.sin1:hover{
+    content: url('/img/yi.png');
+    top:18.3%;
+}
+.sinner2{
+    position: absolute;
+    left: 10%;
+    top:15%;
+    height: 70%;
+    object-fit: contain;
+}
+.square {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-49%);
+    height: 295px;
+    width: 50px;
+    background-color: #010acc;
+    mask-image: image(url(shiftui.png), skyblue);;
+  }
+  .squaremove{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 7000px;
+    height: 10000px;
+    width: 10000px;
+    background-color: #010acc;
+  }
