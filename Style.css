@@ -126,7 +126,7 @@ h2{
 .icon1:hover,.icon2:hover,.icon3:hover,.icon4:hover,.icon5:hover,.icon6:hover,.icon7:hover,.icon8:hover,.icon9:hover,.icon10:hover,.icon11:hover,.icon12:hover{
     filter:grayscale(0%);
 }
-.sin1{
+.yi{
     position: absolute;
     left: 6.1%;
     top:18.5%;
@@ -135,9 +135,24 @@ h2{
     object-fit: contain;
     filter:grayscale(90%);
 }
-.sin1:hover{
+.yi:hover{
     content: url('img/yi.png');
     top:18.3%;
+}
+.faust{
+    position: absolute;
+    left: 6.2%;
+    top:29.9%;
+    height: 7.3%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.faust:hover{
+    content: url('img/faust.png');
+    top:29.9%;
+    left:6.1%;
+    filter:grayscale(0%);
 }
 .sinner2{
     position: absolute;
@@ -145,6 +160,53 @@ h2{
     top:15%;
     height: 70%;
     object-fit: contain;
+}
+.don{
+    position: absolute;
+    left: 6.2%;
+    top:40.4%;
+    height: 7.3%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.don:hover{
+    content: url('img/don.png');
+    top:40.4%;
+    left:6.23%;
+    filter:grayscale(0%);
+}
+.ryo{
+    position: absolute;
+    left: 6.2%;
+    top:51.4%;
+    height: 7.3%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.ryo:hover{
+    content: url('img/ryo.png');
+    top:51.4%;
+    left:6.17%;
+    height: 7.3%;
+    filter:grayscale(0%);
+}
+.meur{
+    position: absolute;
+    left: 6.2%;
+    top:62.4%;
+    height: 6.3%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.meur:hover{
+    content: url('img/meur.png');
+    top:62.4%;
+    left:6.17%;
+    height: 6.3%;
+    filter:grayscale(0%);
 }
 .square {
     position: absolute;
