@@ -154,6 +154,54 @@ h2{
     left:6.1%;
     filter:grayscale(0%);
 }
+.hong{
+    position: absolute;
+    left: 6.2%;
+    top:73.6%;
+    height: 7.3%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.hong:hover{
+    content: url('img/fuaaaaw.png');
+    top:73.5%;
+    left:6.2%;
+    height: 7.65%;
+    filter:grayscale(0%);
+}
+.heath{
+    position: absolute;
+    top:18.9%;
+    left: 52.2%;
+    height: 6.4%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.heath:hover{
+    content: url('img/heath.png');
+    top:18.9%;
+    left: 52.1%;
+    height: 6.6%;
+    filter:grayscale(0%);
+}
+.ishy{
+    position: absolute;
+    top:30%;
+    left: 52.2%;
+    height: 6.4%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.ishy:hover{
+    content: url('img/ishy.png');
+    top:30%;
+    left: 52.14%;
+    height: 6.6%;
+    filter:grayscale(0%);
+}
 .sinner2{
     position: absolute;
     left: 10%;
@@ -206,6 +254,70 @@ h2{
     top:62.4%;
     left:6.17%;
     height: 6.3%;
+    filter:grayscale(0%);
+}
+.rido{
+    position: absolute;
+    top:40.8%;
+    left: 52.26%;
+    height: 6.6%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.rido:hover{
+    content: url('img/rodion.png');
+    top:40.8%;
+    left: 52.2%;
+    height: 6.6%;
+    filter:grayscale(0%);
+}
+.sinclair{
+    position: absolute;
+    top:51.8%;
+    left: 52.26%;
+    height: 6.6%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.sinclair:hover{
+    content: url('img/cuteie.png');
+    top:51.8%;
+    left: 52.25%;
+    height: 6.6%;
+    filter:grayscale(0%);
+}
+.otis{
+    position: absolute;
+    top:62.8%;
+    left: 52.29%;
+    height: 6.6%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.otis:hover{
+    content: url('img/horse.png');
+    top:62.8%;
+    left: 52.29%;
+    height: 6.65%;
+    filter:grayscale(0%);
+}
+.bug{
+    position: absolute;
+    top:74.1%;
+    left: 52.29%;
+    height: 6.6%;
+    z-index: 5;
+    object-fit: contain;
+    filter:grayscale(90%);
+}
+.bug:hover{
+    content: url('img/bugarm.png');
+    top:74.1%;
+    left: 52.27%;
+    height: 6.65%;
     filter:grayscale(0%);
 }
 .square {
